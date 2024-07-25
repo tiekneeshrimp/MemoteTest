@@ -1,0 +1,466 @@
+    1  cd Projects
+    2  ls 
+    3  git clone https://github.com/VicTorres23/Cell_Factory_Design_2024_Bugs_Found.git
+    4  cd Cell_Factory_Design_2024_Bugs_Found/
+    5  ls 
+    6  which python
+    7  exit
+    8  git clone https://github.com/pnnl-predictive-phenomics/concerto.git
+    9  cd concerto
+   10  pip install -r requirements.txt
+   11  memote run --filename "model.xml" --pytests-args "-v"
+   12  pwd
+   13  ls 
+   14  cd  Desktop
+   15  ls
+   16  cd ..
+   17  cd 'OneDrive - PNNL'/
+   18  ls
+   19  cd Desktop
+   20  ls
+   21  cd shell-lesson-data/
+   22  ls
+   23  clear
+   24  ls
+   25  ls -l
+   26  ls -a
+   27  ../
+   28  cd
+   29  cd  -
+   30  ls -f
+   31  ls -n
+   32  ls -q
+   33  ks
+   34  ls -- help
+   35  ls --help
+   36  clear
+   37  ls --man
+   38  clear
+   39  cd
+   40  ls
+   41  cd -
+   42  ls
+   43  history > hist.txt
+   44  ls
+   45  rm hist.txt
+   46  ls
+   47  touch history
+   48  ls
+   49  ls -l
+   50  mk dir Big
+   51  -mkdir BigFold
+   52  mkdir BigFolder
+   53  cd BigFolder/
+   54  mkdir SmallFold1 sf_2
+   55  ls
+   56  cd ..
+   57  ls
+   58  cd BigFolder/
+   59  ls
+   60  touch sf_3
+   61  ls
+   62  cd SmallFold1/
+   63  touch sf_4
+   64  ls
+   65  cd ../ ../
+   66  cd ../../
+   67  ls
+   68  ls BigFolder/
+   69  ls BigFolder/SmallFold1/
+   70  cd BigFolder/
+   71  ls
+   72  rm sf_2
+   73  ls sf_2
+   74  rm -r sf_2
+   75  ls
+   76  cd ..
+   77  ls
+   78  rm -r BigFolder/
+   79  ls
+   80  mkdir target
+   81  touch file1
+   82  ls
+   83  mv file1 target/
+   84  ls target/
+   85  mv file1 ..
+   86  mv file1 ../
+   87  cat target/
+   88  mv file1 ..
+   89  ls
+   90  cat target/
+   91  cd target/
+   92  ls
+   93  mv file1 ..
+   94  ls
+   95  cd ..
+   96  cat target/
+   97  ls
+   98  mv file1 renamefile1
+   99  ls
+  100  cp renamefile1 backuprename
+  101  ls
+  102  mv backuprename backuprename.txt renamefile1 renamefile1.txt
+  103  mv backuprename backuprename.txt
+  104  mv renamefile1 renamefile1.txt
+  105  ls
+  106  rm *.txt
+  107  ls
+  108  ls -F -a
+  109  ls ?i
+  110  ls -a
+  111  ls -s
+  112  ls --help
+  113  0
+  114  /
+  115  cd exercise-data/writing/
+  116  pwd
+  117  ls -F
+  118  notepad text1
+  119  notepad ++
+  120  notepad++ text1
+  121  start notepad++ text1
+  122  start notepad text1
+  123  history
+  124  clear
+  125  touch bob
+  126  ls
+  127  mv thesis/quotes.txt .
+  128  mkdir thesis
+  129  mv bob /thesis
+  130  mv bob thesis
+  131  ls
+  132  ls thesis/
+  133  mv thesis/quotes.txt
+  134  mv thesis/bob.txt
+  135  mv thesis/bob
+  136  cd ..
+  137  cd alkanes/
+  138  ls
+  139  cd ..
+  140  ls alkanes/
+  141  cd ..
+  142  ls exercise-data/alkanes/
+  143  cd exercise-data/alkanes/
+  144  ls
+  145  wc cubane.pdb 
+  146  cd *.pdb
+  147  wc *.pdb
+  148  wc -l *.pdb
+  149  wc -c *.pdb
+  150  wc -l -r *.pdb
+  151  wc -l *.pdb
+  152  wc -l -s *.pdb
+  153  wc -l -n *.pdb
+  154  wc --help
+  155  echo hello > HelloFolder
+  156  ls
+  157  echo overwrite > HelloFolder 
+  158  cat HelloFolder 
+  159  cat cubane.pdb 
+  160  cat *.pdb
+  161  cat propane.pdb 
+  162  cat *ethane.pdb
+  163  cd ..
+  164  cd ..
+  165  cd exercise-data/numbers.txt 
+  166  cat exercise-data/numbers.txt 
+  167  sort exercise-data/numbers.txt 
+  168  sort -n exercise-data/numbers.txt 
+  169  head exercise-data/numbers.txt 
+  170  head -n 1 exercise-data/numbers.txt 
+  171  tail -n 1 exercise-data/numbers.txt 
+  172  cd exercise-data/
+  173  sort -n
+  174  sort -n numbers.txt | tail -n 1
+  175  cd animal-counts/
+  176  ls
+  177  cat animals.csv 
+  178  history
+  179  cd -
+  180  ls
+  181  cd OneDrive\ -\ PNNL/Desktop/shell-lesson-data/exercise-data/animal-counts/
+  182  cat animals.csv 
+  183  cut -d, -f 2 animals.csv 
+  184  cut -d, -f 2 animals.csv | sort | uniq -c
+  185  cut -d, -f animals.csv | sort | uniq -c
+  186  cut -d, -f 2 3 animals.csv | sort | uniq -c
+  187  cut -d, -f 2 animals.csv | sort 3 | uniq -c
+  188  cd ../north-pacific-gyre
+  189  cd ../../north-pacific-gyre/
+  190  wc -l *.txt
+  191  wc -l *.txt | sort -n | head -n 5
+  192  wc -l *.txt | sort -n | tail -n 5
+  193  ls *Z.txt
+  194  cd ../exercise-data/creatures/
+  195  ls
+  196  head -n 5 basilisk.dat minotaur.dat unicorn.dat 
+  197  head -n 9 basilisk.dat minotaur.dat unicorn.dat 
+  198  sort n
+  199  sort
+  200  for
+  201  for filename in *.dat; do echo $filename; head -n 2 $filename | tail -n 1; done
+  202  for filename in *.dat; do echo $filename; head -n 2 $filename | tail -n 1; done
+  203  cd ../alkanes/
+  204  for species in cubane ethane methane; do  for temperature in 25 30 37 40; do mkdir $species-$temperature; done; done
+  205  ls
+  206  notepad middle.sh
+  207  ls
+  208  bash middle.sh
+  209  notepad
+  210  notepad middle.sh
+  211  bash middle.sh
+  212  notepad middle.sh
+  213  bash middle.sh
+  214  notepad middle.sh
+  215  history
+  216  [200~OneDrive\ -\ PNNL/Desktop/shell-lesson-data/exercise-data/animal-counts/
+  217  OneDrive\ -\ PNNL/Desktop/shell-lesson-data/exercise-data/animal-counts/
+  218  cd OneDrive\ -\ PNNL/Desktop/shell-lesson-data/exercise-data/animal-counts/
+  219  cd ../alkanes/
+  220  bash middle.sh octane.pdb 
+  221  bash middle.sh pentane.pdb 
+  222  bash middle.sh *ane.pdb
+  223  notepad middle.sh 
+  224  bash middle.sh *ane.pdb
+  225  notepad middle.sh 
+  226  notepad middle.sh 
+  227  bash middle.sh *ane.pdb
+  228  history | tail -n 5 > redo-figure-3.sh
+  229  notepad redo-figure-3.sh 
+  230  notepad middle.sh 
+  231  bash middle.sh ethane.pdb methane.pdb 
+  232  notepad middle.sh 
+  233  notepad do-stats.sh
+  234  bash do-stats.sh NENE*A.txt NENE*B.txt
+  235  notepad do-stats.sh
+  236  bash do-stats.sh NENE*A.txt NENE*B.txt
+  237  mv do-stats.sh ../../north-pacific-gyre/
+  238  cd ../../north-pacific-gyre/
+  239  ls
+  240  bash do-stats.sh NENE*A.txt NENE*B.txt
+  241  notepad goostats.sh 
+  242  ls
+  243  find longest.sh
+  244  cd ..
+  245  find longest.sh
+  246  notepad longest.sh
+  247  bash longest.sh exercise-data/alkanes/ *.pdb
+  248  notepad longest.sh 
+  249  cd exercise-data/alkanes/
+  250  ls
+  251  rmdir *-*
+  252  ls
+  253  wc -l *.pdb
+  254  wc -l *.pdb -r
+  255  wc -l *.pdb | sort -r
+  256  notepad longest.sh
+  257  cd ../../
+  258  notepad longest.sh 
+  259  notepad longest.sh 
+  260  bash longest.sh exercise-data/alkanes/ *.pdb
+  261  bash -x longest.sh exercise-data/alkanes/ *.pdb
+  262  ls
+  263  cd exercise-data/writing/
+  264  cat haiku.txt 
+  265  grep not haiku.txt 
+  266  grep the haiku.txt 
+  267  grep The haiku.txt 
+  268  grep "The " haiku.txt 
+  269  grep -w The haiku.txt 
+  270  grep -n "it" haiku.txt 
+  271  grep -n -w " haiku.txt 
+  272  grep -n -w " haiku.txt 
+  273  grep -n -w "the" haiku.txt
+  274  grep -n -w -i THE haiku.txt
+  275  grep -n -w THE haiku.txt
+  276  grep -n -w -v the haiku.txt
+  277  grep -r Yesterday
+  278  grep --help
+  279  grep -E "of" haiku.txt 
+  280  grep -w "of" haiku.txt 
+  281  grep -i "of" haiku.txt 
+  282  grep -E "^.o" haiku.txt 
+  283  cd ../../
+  284  notepad species.sh
+  285  bash species.sh rabbit exercise-data/animal-counts/
+  286  ls
+  287  cat rabbit.txt 
+  288  bash species.sh deer exercise-data/animal-counts/
+  289  ls
+  290  cat deer.txt 
+  291  notepad litwo.sh
+  292  grep --help
+  293  wc --help
+  294  notepad litwo.sh 
+  295  cd exercise-data/writing/
+  296  bash litwo.sh LittleWomen.txt
+  297  cd ..
+  298  cd ..
+  299  mv litwo.sh exercise-data/writing
+  300  ls
+  301  cd exercise-data/writing/
+  302  ls
+  303  bash litwo.sh LittleWomen.txt
+  304  notepad litwo.sh 
+  305  bash litwo.sh LittleWomen.txt 
+  306  notepad litwo.sh 
+  307  bash litwo.sh LittleWomen.txt 
+  308  notepad litwo.sh 
+  309  bash litwo.sh LittleWomen.txt 
+  310  notepad litwo.sh 
+  311  bash litwo.sh LittleWomen.txt 
+  312  bash litwo.sh
+  313  notepad litwo.sh 
+  314  bash litwo.sh
+  315  bash litwo.sh LittleWomen.txt 
+  316  notepad lit
+  317  bash litwo.sh LittleWomen.txt 
+  318  notepad litwo.sh 
+  319  bash litwo.sh 
+  320  notepad litwo.sh 
+  321  bash litwo.sh 
+  322  notepad litwo.sh 
+  323  bash litwo.sh 
+  324  notepad
+  325  find .
+  326  cd ../..
+  327  find. 
+  328  find .
+  329  ls man [command]
+  330  grep man[command]
+  331  grep man [command]
+  332  man ls
+  333  man grep
+  334  man [grep]
+  335  grep --help
+  336  sed --help
+  337  cd exercise-data/writing/
+  338  grep Beth LittleWomen.txt 
+  339  cp LittleWomen.txt nobethlittlewomen.txt
+  340  sed --help
+  341  cd ~
+  342  cd OneDrive\ -\ PNNL/Desktop
+  343  cd ModelCodes/
+  344  history > ShellLessonHistory.txt
+  345  cd
+  346  pwd
+  347  cd venv
+  348  ssh lint730@deception.pnl.gov
+  349  pip3 install smetana
+  350  ls
+  351  cd concerto/
+  352  ls
+  353  pip3 install smetana
+  354  ls
+  355  smetana csc052-gem/
+  356  smetana csc052-gem/csc052/
+  357  smetana csc009-gem.xml
+  358  smetana csc009.xml csc031.xml csc040.xml csc043.xml csc052.xml --solver gurobi --output ./rc-smb1/projects/ppi_concerto/tesia_biocyc_analysis --detailed
+  359  pip3 install gurobi
+  360  pip3 install gurobi.py
+  361  pip3 install gurobipy
+  362  smetana csc009.xml csc031.xml csc040.xml csc043.xml csc052.xml --solver gurobi --output ./rc-smb1/projects/ppi_concerto/tesia_biocyc_analysis --detailed
+  363  smetana csc009.xml csc031.xml csc040.xml csc043.xml csc052.xml --solver gurobi --output ./rc-smb1/projects/ppi_concerto/tesia_biocyc_analysis --detailed
+  364  import os
+  365  smetana -h
+  366  $ smetana *.xml -c communities.tsv
+  367  smetana *.xml -c communities.tsv
+  368  memote --help
+  369  pip3 install memote
+  370  memote report snapshot path/to.model.xml
+  371  memote report snapshot csc009-gem/csc009/model.xml 
+  372  memote report snapshot csc009-gem/csc009/model.xml 
+  373  [200~$ memote report snapshot --filename "result.html" csc009-gem/csc009/model.xml 
+  374  memote report snapshot --filename "result.html" csc009-gem/csc009/model.xml 
+  375  ls
+  376  mv result.html csc009-gem/csc009/results/
+  377  ls csc009-gem/csc009/results/
+  378  cd csc031-gem/
+  379  ls
+  380  cd csc031/
+  381  memote report snapshot --filename "031result.html" model.xml 
+  382  ls
+  383  mv 031result.html ../
+  384  cd ..
+  385  ls
+  386  mv 031result.html results/
+  387  ls
+  388  cd ..
+  389  cd csc040-gem/csc040/
+  390  memote report snapshot --filename "040result.html" model.xml 
+  391  ls
+  392  mv 040result.html csc040-gem/results
+  393  mv 040result.html ../results
+  394  cd ..
+  395  ls
+  396  cd results/
+  397  ls
+  398  cd ../../
+  399  cd csc043-gem/csc043/
+  400  memote report snapshot --filename "043result.html" model.xml 
+  401  ls
+  402  mv 043result.html results/
+  403  ls
+  404  cd ..
+  405  ls
+  406  mv csc043/results/043result.html ../csc043-gem/results/
+  407  ls
+  408  ls results/
+  409  cd csc043/
+  410  ls
+  411  cd ../..
+  412  cd csc052-gem/csc052/
+  413  memote report snapshot --filename "052result.html" model.xml 
+  414  ls
+  415  mv 052result.html ../results/
+  416  cd ..
+  417  ls
+  418  ls results/
+  419  cd ..
+  420  cd csc009-gem/csc009/
+  421  ls
+  422  ls results/
+  423  mv result.html 009result.html
+  424  mv results/result.html 009result.html
+  425  ls results/
+  426  ls
+  427  mv 009result.html ../results/
+  428  ls
+  429  cd ..
+  430  ls
+  431  ls results/
+  432  cat results/009result.html 
+  433  cd ..
+  434  memote report diff csc009-gem/results/009result.html csc031-gem/results/031result.html csc040-gem/results/040result.html csc043-gem/results/043result.html csc052-gem/results/052result.html 
+  435  memote report diff csc009-gem/csc009/model.xml csc031-gem/csc031/model.xml csc040-gem/csc040/model.xml csc043-gem/csc043/model.xml csc052-gem/csc052/model.xml 
+  436  cd concerto
+  437  cd ..
+  438  ls
+  439  cd MemoteTest
+  440  [200~it
+  441  git init git remote add origin <repository clone link> git add . git commit -m "commit" git push origin master
+  442  git init git remote add origin <https://github.com/tiekneeshrimp/MemoteTest.git> git add . git commit -m "commit" git push origin master
+  443  [200~echo "# MemoteTest" >> README.md
+  444  echo "# MemoteTest" >> README.md
+  445  git init
+  446  git add README.md
+  447  git commit -m "first commit"
+  448  git branch -M main
+  449  git remote add origin https://github.com/tiekneeshrimp/MemoteTest.git
+  450  git push -u origin main
+  451  gitpush C:\Users\lint730\venv\concerto\MemoteTest origin/main
+  452  git init
+  453  git add .
+  454  git status
+  455  git commit -m 'FirstMemoteRun'
+  456  git remote add origin https://github.com/tiekneeshrimp/MemoteTest.git
+  457  git push -u origin master
+  458  git push -u origin master
+  459  git status
+  460  git push
+  461  git add <file>
+  462  git add <csc0009-gem.
+  463  git add <csc0009-gem>
+  464  git status
+  465  git commit -a
+  466  history >> history07_25_2024.txt
